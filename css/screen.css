@@ -1,0 +1,111 @@
+/* *************************************************************************
+Style Sheet for the HTML CSS Course From Great IT Courses
+Author John Raschedian
+Date: March 26, 2020
+Description: This is one of the style sheets for the whole learning program
+****************************************************************************/
+
+
+/* Main Sections Styles */
+
+body {
+    background-color: #8c8c8c;
+    background-image: url(cheap_diagonal_fabric.png);
+    color: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+}
+
+div#wrapper {
+    background-color: #ffffff;
+    color: #000000;
+    width: 760px;
+    /* Replaced By single line entry below
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 10px auto 10px auto;
+}
+
+header {
+    background-color: #58BADD;
+    color: #000000;
+    padding: 10px 20px 10px 20px;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px 20px 10px 20px;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+div#main {
+    padding: 10px 20px 10px 20px;
+}
+
+footer {
+    border-top: 1px solid #8c8c8c;
+    padding: 10px 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 80%;
+    letter-spacing: 3px;
+}
+
+
+/* Styles related to the different states of hyperlinks */
+
+a:link {
+    color: #58BADD;
+}
+
+a:visited {
+    color: #dd5878;
+}
+
+a:hover {
+    color: #c1274c;
+}
+
+a:focus {
+    color: #c1274c;
+}
+
+a:active {
+    background-color: #811833;
+    color: #ffffff;
+}
+
+
+/* General Styles */
+
+h1 {
+    font-family: "Times New Roman", Times, Georgia, serif;
+    font-size: 150%;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, Georgia, serif;
+    font-size: 130%;
+}

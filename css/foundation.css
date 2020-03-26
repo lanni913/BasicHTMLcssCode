@@ -1,0 +1,80 @@
+/* *************************************************************************
+Style Sheet for the HTML CSS Course From Great IT Courses
+Author John Raschedian
+Date: March 26, 2020
+Description: This is one of the style sheets for the whole learning program
+****************************************************************************/
+
+
+/* ******************************************************
+    Part 1 - Reset 
+********************************************************* */
+
+html {
+    overflow-y: scroll;
+}
+
+body,
+div,
+header,
+nav,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+code,
+ul,
+ol,
+li,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ******************************************************
+    Part 2 - Restoration 
+********************************************************* */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol {
+    margin-bottom: 1em;
+}
+
+ul,
+ol {
+    margin-left: 2em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin-bottom: 0;
+}
+
+blockquote {
+    margin: 1em 2em 1em 2em;
+}

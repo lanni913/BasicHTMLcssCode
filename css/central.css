@@ -1,0 +1,9 @@
+/* *************************************************************************
+Style Sheet for the HTML CSS Course From Great IT Courses
+Author John Raschedian
+Date: March 26, 2020
+Description: This is central style sheet for the whole learning program
+****************************************************************************/
+
+@import url(foundation.css);
+@import url(screen.css);
