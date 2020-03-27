@@ -7,3 +7,4 @@ Description: This is central style sheet for the whole learning program
 
 @import url(foundation.css);
 @import url(screen.css);
+@import url(inline.css);

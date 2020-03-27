@@ -1,0 +1,38 @@
+/* *************************************************************************
+Style Sheet for the HTML CSS Course From Great IT Courses
+Author John Raschedian
+Date: March 27, 2020
+Description: This is style sheet related to the navigation menu
+****************************************************************************/
+
+nav {
+    background-color: #000000;
+    padding: 10px 20px 10px 20px;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+nav#main-navigation a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.25em;
+    border-radius: 0.5em;
+}
+
+nav#main-navigation a:hover,
+nav#main-navigation a:focus {
+    border: 3px solid #58b9dd;
+}
+
+nav#main-navigation a:active {
+    background-color: #98d4EA;
+}
+
+nav li {
+    display: inline;
+}
