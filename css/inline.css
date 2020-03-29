@@ -5,12 +5,12 @@ Date: March 27, 2020
 Description: This is style sheet related to the navigation menu
 ****************************************************************************/
 
-nav {
+nav#main-navigation {
     background-color: #000000;
     padding: 10px 20px 10px 20px;
 }
 
-nav ul {
+nav#main-navigation ul {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -33,6 +33,6 @@ nav#main-navigation a:active {
     background-color: #98d4EA;
 }
 
-nav li {
+nav#main-navigation li {
     display: inline;
 }

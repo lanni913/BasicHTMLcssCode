@@ -52,11 +52,11 @@ div#main {
 footer {
     border-top: 1px solid #8c8c8c;
     padding: 10px 20px;
+    font-size: 80%;
 }
 
 footer p {
     text-align: center;
-    font-size: 80%;
     letter-spacing: 3px;
 }
 
@@ -94,4 +94,36 @@ a:active {
 
 .current-nav-button {
     border: 3px solid #98d4E8;
+}
+
+
+/* Styles Related To The Contact Form */
+
+form#contact-form {
+    background-color: #f4eaca;
+    padding: 1em;
+    width: 350px;
+}
+
+form#contact-form div#form-info {
+    background-color: #ead799;
+    font-size: 70%;
+    padding: 0.5em;
+}
+
+form#contact-form label {
+    display: block;
+}
+
+form#contact-form>div {
+    margin-bottom: 0.5em;
+}
+
+form#contact-form input:focus,
+form#contact-form textarea:focus {
+    background-color: #eeeeee;
+}
+
+form#contact-form textarea:focus {
+    max-width: 100%;
 }
