@@ -14,32 +14,9 @@ html {
     overflow-y: scroll;
 }
 
-body,
-div,
-header,
-nav,
-footer,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-code,
-ul,
-ol,
-li,
-table,
-th,
-td,
-form,
-fieldset,
-legend,
-input,
-textarea {
+body, div, header, nav, footer,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,code,ul,ol,li,table,th,td,form,fieldset,
+legend,input,textarea {
     margin: 0;
     padding: 0;
 }
@@ -49,29 +26,16 @@ textarea {
     Part 2 - Restoration 
 ********************************************************* */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-ul,
-ol {
+h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,ul,ol {
     margin-bottom: 1em;
 }
 
-ul,
-ol {
+ul,ol {
     margin-left: 2em;
 }
 
-ul ul,
-ul ol,
-ol ol,
-ol ul {
+ul ul,ul ol,ol ol,ol ul {
     margin-bottom: 0;
 }
 
@@ -108,12 +72,7 @@ h6 {
     font-size: 110%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Times New Roman", Times, Georgia, serif;
     font-weight: bold;
 }
